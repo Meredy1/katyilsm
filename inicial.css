@@ -1,0 +1,92 @@
+html {
+    font-family: 'open Sans', sans-serif;
+}
+
+body {
+    margin:0;
+}
+
+h1,h2,h3,h4,h5,p,span{
+    margin:0
+}
+
+.container{
+    max-width: 1920px;
+    width: 100%;
+}
+
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    top:0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgb(22, 22, 22);
+    border-bottom: 1px solid rgb(49, 49, 49);
+}
+
+nav:after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.nav-container{
+    max-width: 1200px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.nav-container ul{
+    float: right;
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.nav-container li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+}
+
+.nav-container li a{
+    text-decoration: none;
+    color: #666;
+    transition: .5s;
+}
+
+.nav-container li a:hover{
+    color: #3381f3;
+}
+
+#main-banner{
+    background: url('https://c.wallhere.com/photos/93/33/Girls_Avenue_League_of_Legends_Lux_League_of_Legends-1401693.jpg!d') no-repeat;
+    background-size: cover;
+    background-position: 0 55%;
+    position: relative;
+    margin-top: 100px;
+}
+
+#search-form{
+    position: relative;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15em;
+    padding-bottom: 15em;
+}
